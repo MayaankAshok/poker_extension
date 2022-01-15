@@ -1,0 +1,20 @@
+{
+    "name": "Poker Eval",
+    "description": "It might just work",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+    "permissions": [
+        "pageCapture",
+        "tabs",
+        "activeTab",
+        "scripting"
+
+      ],
+    "action": {
+        "default_popup": "popup.html"
+      }
+    
+  }
